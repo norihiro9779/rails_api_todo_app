@@ -69,7 +69,7 @@ function AddTodo() {
   // v5ではuseHistoryフックが利用できたが、v6からはuseNavigateを利用するようになっている
   // 参考記事
   // https://dev-k.hatenablog.com/entry/react-router-v6-vs-v5-dev-k#%E7%9B%B8%E5%AF%BE%E3%83%91%E3%82%B9%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF
-  const navigate = useNavigate();
+  const navigate = useNavigate()
 
   const saveTodo = () => {
     var data = {
@@ -84,7 +84,6 @@ function AddTodo() {
         is_completed: resp.data.is_completed
       })
       notify()
-      console.log(props)
       navigate('/todos')
     })
     .catch(e => {
