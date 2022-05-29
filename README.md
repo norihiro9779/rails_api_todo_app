@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 技術スタック
+###　バックエンド
+Ruby on rails
 
-Things you may want to cover:
+###フロントエンド
+React
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img width="1078" alt="スクリーンショット 2022-05-29 13 48 21" src="https://user-images.githubusercontent.com/63492830/170852809-14adceac-0add-4dff-9fe1-58c8b983f9c1.png">
