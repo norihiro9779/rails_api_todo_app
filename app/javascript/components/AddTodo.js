@@ -52,10 +52,15 @@ function AddTodo() {
     is_completed: false
   }
 
+  // todo state変数名
+  // setTodo state変更関数名
   const [todo, setTodo] = useState(initialTodoState)
 
+  // 入力欄に文字が入力されたら呼び出される関数
   const handleInputChange = event => {
+    // カラムと値を定義
     const { name, value } = event.target;
+    // スプレッド構文で展開しnameカラムを指定しvalueを更新
     setTodo({ ...todo, [name]: value })
   }
 
